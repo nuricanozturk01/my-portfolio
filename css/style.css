@@ -197,7 +197,11 @@ a:hover, a:focus, a:active {
 }
 
 .site-hero {
-    background-color: #ccc;
+    background: rgb(0,15,38);
+    background: -moz-linear-gradient(90deg, rgba(0,15,38,1) 0%, rgba(0,45,122,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,15,38,1) 0%, rgba(0,45,122,1) 100%);
+    background: linear-gradient(90deg, rgba(0,15,38,1) 0%, rgba(0,45,122,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000f26",endColorstr="#002d7a",GradientType=1);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
